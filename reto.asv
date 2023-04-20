@@ -1,6 +1,0 @@
-%%Campo electrico carga
-k = 10*10^9;
-% E = F/q
-% E = (k*q)/r^2
-x = [5]
-y = [5]
