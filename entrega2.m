@@ -1,6 +1,6 @@
 clear;
 clc;
-% Pedir al usuario introducir el valor de las cargas
+% valor de las cargas
 q1 = 5 * 10^-6;
 q2 = -5 * 10^-6;
 
@@ -8,7 +8,7 @@ d1 = 1; %distancia entre las cargas positivas en el eje y
 d2 = 1; %distancia entre las cargas negativas
 
 xq1 = -2; 
-yq1 = -2*d1:d1:2*d1; 
+yq1 = -1*d1:d1:1*d1; 
 xq2 = 2;
 yq2 = -2*d2:d2:2*d2;
 

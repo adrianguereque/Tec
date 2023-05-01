@@ -1,12 +1,12 @@
 clear;
 clc;
-% Pedir al usuario introducir el valor de las cargas
-q1 = 4 * 10^-6;
-q2 = 5 * 10^-6;
+% Valor de las cargas
+q1 = 5 * 10^-6;
+q2 = -5 * 10^-6;
 
-xq1 = -2;
+xq1 = -3;
 yq1 = 0;
-xq2 = 2;
+xq2 = 3;
 yq2 = 0;
 
 % Definir las constantes de Coulomb 
@@ -24,8 +24,6 @@ for i = 1:length(x)
     for j = 1:length(x)
         r1 = sqrt((x(i, j)-xq1)^2 + (y(i, j)-yq1)^2); % Distancia a la carga 1
         r2 = sqrt((x(i, j)-xq2)^2 + (y(i, j)-yq2)^2); % Distancia a la carga 2
-        x(i,j)
-        y(i,j)
         E1 = k*q1/r1^2; % Magnitud del campo eléctrico de la carga positiva
         E2 = k*q2/r2^2; % Magnitud del campo eléctrico de la carga negativa
         theta1 = atan2((y(i, j)-yq1),(x(i, j)-xq1)); % Ángulo entre el vector y el eje x
@@ -40,23 +38,16 @@ end
 streamslice(x, y, Ex, Ey, 2)
 hold on 
 
-% Definir los radios de los círculos
-r1 = 0.5;
-r2 = 0.5;
-
-% Definir la separación en el eje x
-xc = 4;
-
-% Dibujar los círculos
-theta = 0:0.01:2*pi; % Definir el ángulo
-x1 = r1*cos(theta)-(xc/2);  % Calcular la coordenada x del primer círculo
-y1 = r1*sin(theta);  % Calcular la coordenada y del primer círculo
-x2 = r2*cos(theta) + (xc/2); % Calcular la coordenada x del segundo círculo
-y2 = r2*sin(theta);      % Calcular la coordenada y del segundo círculo
-fill(x1, y1, 'b'); % Rellenar el primer círculo de color azul
-text(xq1,yq1,'+','Color','white','FontSize',9);
-hold on;           % Mantener el gráfico actual
-fill(x2, y2, 'r'); % Rellenar el segundo círculo de color rojo
-text(xq2,yq2,'-','Color','white','FontSize',11);
+r = 0.2; % radio de los círculos
+theta = linspace(0,2*pi,100); % valores de theta para dibujar el círculo
 hold on
-axis equal;        % Establecer los mismos límites para ambos ejes
+plot(xq1 + r*cos(theta), yq1 + r*sin(theta),'k','LineWidth',1);
+plot(xq2 + r*cos(theta), yq2 + r*sin(theta),'k','LineWidth',1);
+
+% Rellenar los círculos de color
+fill(xq1 + r*cos(theta), yq1 + r*sin(theta),'r');
+fill(xq2 + r*cos(theta), yq2 + r*sin(theta),'b');
+
+hold on
+xlim([-5 5])
+ylim([-5 5])
