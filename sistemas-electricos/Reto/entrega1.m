@@ -1,12 +1,12 @@
 clear;
 clc;
 % Valor de las cargas
-q1 = 5 * 10^-6;
-q2 = -5 * 10^-6;
+q1 = 1 * 10^-6;
+q2 = -2    * 10^-6;
 
-xq1 = -3;
+xq1 = -4;
 yq1 = 0;
-xq2 = 3;
+xq2 = 4;
 yq2 = 0;
 
 % Definir las constantes de Coulomb 
