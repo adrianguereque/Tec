@@ -1,0 +1,17 @@
+El arbol tiene: 0 nodos
+Altura del BST: 0
+Altura del BST: 3
+El arbol tiene: 13 nodos
+Altura del BST: 5
+Recorrido en preorden: 8 7 5 2 1 4 6 15 9 11 21 18 40 
+Recorrido en entreorden: 1 2 4 5 6 7 8 9 11 15 18 21 40 
+Recorrido en postorden: 1 4 2 6 5 7 11 9 18 40 21 15 8 
+Recorrido nivel x nivel: 8 7 15 5 9 21 2 6 11 18 40 1 4 
+Ancestros de 100: DATO INEXISTENTE
+Ancestros de 8: SIN ANCESTROS
+Ancestros de 4: 2 5 7 8 
+Ancestros de 11: 9 15 8 
+Nivel de 100: -1
+Nivel de 8: 0
+Nivel de 9: 2
+Nivel de 4: 4

@@ -1,0 +1,6 @@
+Cantidad de datos en Heap: 12
+Datos en heap: -1 90 67 52 47 52 15 6 1 23 15 24 7 
+Datos x prioridad en Heap: 90 67 52 52 47 24 23 15 15 7 6 1 
+Nuevo heap: -1 90 67 15 47 52 7 6 24 23 15 52 1 
+Nuevo heap x prioridad: 90 67 52 52 47 24 23 15 15 7 6 1 
+Vector ordenado: 1 6 7 15 15 23 24 47 52 52 67 90 
