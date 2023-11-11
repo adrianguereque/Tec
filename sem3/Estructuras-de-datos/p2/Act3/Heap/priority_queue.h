@@ -2,7 +2,8 @@
 #define PRIORITY_QUEUE_H
 
 #include <vector>
-
+#include <fstream>
+using namespace std;
 class priority_queue {
     public:
         priority_queue();

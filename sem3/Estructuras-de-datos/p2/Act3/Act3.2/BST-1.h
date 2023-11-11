@@ -324,7 +324,7 @@ int BST::getMaxWidth(queue<NodeT *> nodes) const{
 }   
 
 int BST::maxWidth() const{
-    queue<NodeT *> nodes;
+    queue<NodeT *> nodes; 
     nodes.push(root);
     return getMaxWidth(nodes);
 }

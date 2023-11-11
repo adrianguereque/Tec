@@ -6,13 +6,21 @@ using namespace std;
 #include "priority_queue.h"
 
 // Despliega el contenido del heap x prioridad.
-void print_heap(priority_queue heap) {
-    // TO DO
+void print_heap(priority_queue heap) { // O(1)
+    while (! heap.empty()) {
+		cout << heap.top() << " ";
+		heap.pop();
+	}
+	cout << endl;
 }
 
 // ordena un vector usando el heap sort
-void heapSort(vector<int> &vec) {
-    // TO DO
+void heapSort(vector<int> &vec) {// O(n)
+	priority_queue heap = vec;
+	for (int pos = vec.size() - 1; pos >= 0; pos--) {
+		vec[pos] = heap.top();
+		heap.pop();
+	}
 }
 
 int main() {
