@@ -1,0 +1,18 @@
+Lista de Adyacencias
+Nodo 0 -> 2 -> 4
+Nodo 1 -> 0
+Nodo 2
+Nodo 3 -> 1 -> 2
+Nodo 4 -> 3
+
+DFS: 0 2 4 3 1
+DFS: 1 0 2 4 3
+DFS: 2
+DFS: 3 1 0 2 4
+DFS: 4 3 1 0 2
+
+El grafo NO es un DAG
+
+El grafo NO tiene orden topologico
+
+El grafo es bipartito
