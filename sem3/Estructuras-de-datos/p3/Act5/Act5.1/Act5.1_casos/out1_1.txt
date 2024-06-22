@@ -1,0 +1,14 @@
+El conjunto tiene 3 elementos
+Conjunto: 22 7 2
+Tabla de Hash
+[0] 22
+[1] 7
+[2] 2
+El conjunto tiene 1 elementos
+Conjunto: 22
+Tabla de Hash
+[0] 22
+[1] borrado
+[2] borrado
+< Encontrado >
+< NO encontrado >

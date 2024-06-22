@@ -1,0 +1,29 @@
+El conjunto tiene 5 elementos
+Conjunto: 4 56 7 28 98
+Tabla de Hash
+[0] vacio
+[1] vacio
+[2] vacio
+[3] vacio
+[4] 4
+[5] vacio
+[6] 56
+[7] 7
+[8] 28
+[9] 98
+El conjunto tiene 3 elementos
+Conjunto: 56 28 98
+Tabla de Hash
+[0] vacio
+[1] vacio
+[2] vacio
+[3] vacio
+[4] borrado
+[5] vacio
+[6] 56
+[7] borrado
+[8] 28
+[9] 98
+< NO encontrado >
+< Encontrado >
+< Encontrado >

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resaltado de Código</title>
+    <style>
+        .tipoVar { color: blue; font-weight: bold; }
+        .palabrasReservadas { color: purple; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <pre><span class="tipoVar">int</span> a = 5;
+<span class="tipoVar">float</span> b = 3.14;
+<span class="tipoVar">bool</span> c = <span class="tipoVar">true</span>;
+
+<span class="palabrasReservadas">if</span> (a &gt; b) {
+    a = a + 1;
+}
+
+<span class="palabrasReservadas">if</span> (c <span class="palabrasReservadas">and</span> (b &lt;= a)) {
+    b = b * 2;
+    c = <span class="tipoVar">false</span>;
+}</pre>
+</body>
+</html>

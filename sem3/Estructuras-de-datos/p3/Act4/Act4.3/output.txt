@@ -1,0 +1,14 @@
+Candidatos a Bot Master (Fan-out = 18):
+dirIp:    73.89.221.25
+dirIp:  185.109.34.183
+Las 10 direcciones de Ip con mayor fan-out:
+DirIp:   64.154.86.234 fan-out: 17
+DirIp:  143.20.176.176 fan-out: 17
+DirIp: 115.157.160.175 fan-out: 17
+DirIp:  174.190.90.229 fan-out: 17
+DirIp:  211.28.233.171 fan-out: 17
+DirIp:   219.75.168.78 fan-out: 17
+DirIp: 220.210.239.189 fan-out: 17
+DirIp:   90.167.116.74 fan-out: 17
+DirIp:   75.109.140.34 fan-out: 16
+DirIp:  152.94.237.150 fan-out: 16

@@ -1,0 +1,34 @@
+Ip 0: 36.29.138.97
+Intento accesar 11 veces
+Intentaron accesarla 2 veces
+
+Ip 1: 68.23.83.38
+Intento accesar 6 veces
+Intentaron accesarla 19 veces
+
+Ip 2: 225.580.112.39 no encontrada
+
+Ip 3: 110.176.116.145
+Intento accesar 10 veces
+Intentaron accesarla 3 veces
+
+Ip 4: 147.200.31.207
+Intento accesar 6 veces
+Intentaron accesarla 13 veces
+
+Ip 5: 254.252.14.232 no encontrada
+
+Ip 6: 188.21.101.7
+Intento accesar 6 veces
+Intentaron accesarla 4 veces
+
+Ip 7: 225.58.112.239
+Intento accesar 7 veces
+Intentaron accesarla 5 veces
+
+Ip 8: 136.29.138.97 no encontrada
+
+Ip 9: 254.252.154.232
+Intento accesar 6 veces
+Intentaron accesarla 8 veces
+
